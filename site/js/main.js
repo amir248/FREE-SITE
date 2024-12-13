@@ -23,7 +23,29 @@ function second(){
     resolve(oK());
     });
 }
+function nav(){
+    return new Promise((resolve)=>{
+        function navig(){
+            const nav=document.createElement('script');
+            nav.src='site/js/navigation.js';
+            document.querySelector('body').append(nav);
+        }
+        resolve(navig());
+    });
+};//nav
+function date(){
+    return new Promise((resolve)=>{
+        function datee(){
+            const date=document.createElement('script');
+            date.src='site/js/date.js';
+            document.querySelector('body').append(date);
+        }
+        resolve(datee());
+    });
+}
 async function main(){
+    await nav();
+    await date();
     await first();
     await second();
 }
