@@ -30,7 +30,7 @@ function openMenu(){
     menuOpen.innerHTML=`${menuList}`;
     document.querySelector('body').prepend(menuOpen);
     setTimeout(()=>{
-        document.querySelector('.openMenu').style.cssText=`height:100vh;font-size:33px;`;
+        document.querySelector('.openMenu').style.cssText=`height:100vh;font-size:33px;opacity:1;`;
     },10);
     document.querySelector('.openMenu').addEventListener('click',()=>{
         document.querySelector('.openMenu').style.cssText=`height:0;top:100vh;`;
