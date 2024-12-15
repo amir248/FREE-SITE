@@ -578,12 +578,23 @@ article{
 .testimonials{
     width:100%;
     max-width:1300px;
-    height:625px;
+    min-height:625px;
     display:flex;
     justify-content: center;
     align-items: center;
     background-color: #191A23;
     border-radius: 27px;
+    overflow: hidden;
+}
+.testimonials > div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    min-width:100%;
+    min-width:1918px;
+    min-height:473px;
+    /* overflow: hidden; */
 }
 .contactUs{
     width:100%;
