@@ -36,7 +36,7 @@ function openDropList(x){
     document.querySelector(`${x}`).classList.add('consultation');
     
     document.querySelector(`${x}`+' > div:nth-child(1) > p:nth-child(3)').style.cssText='display:block';
-    // document.querySelector(`${x}`+'div:nth-child(1) > hr:nth-child(2)').style.display='block';
     document.querySelector(`${x}`).classList.remove('consultationClose');
-    // document.querySelector(`${x}`+' > div:nth-child(1) > p:nth-child(3)').style.display='block';
+    
+    document.querySelector('.consultation > div > hr').style.display='block';
 }

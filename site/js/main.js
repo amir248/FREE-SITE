@@ -2,7 +2,14 @@ document.querySelector('.center > div:nth-child(1) > button:nth-child(3)').addEv
     window.location.href=`https://wa.me/79528885656?text=Hi!%20%F0%9F%91%8B%20I'm%20interested%20...`;
     // window.location.href=`https://wa.clck.bar/79528885656?text=Hi,%20%F0%9F%91%8B%20I'm%20interested%20...`;
 });
+document.querySelector('.letsMake > div:nth-child(1) > button:nth-child(3)').addEventListener('click',()=>{
+    window.location.href=`https://wa.me/79528885656?text=Hi!%20!!!%20I'm%20interested%20...`;
 
+});
+document.querySelector('.contactUs > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)').addEventListener('click',()=>{
+    window.location.href=`https://wa.me/79528885656?text=Hi!%20^_^%20I'm%20interested%20...`;
+
+});
 function first(){
     return new Promise ((resolve)=>{
         function oK(){
