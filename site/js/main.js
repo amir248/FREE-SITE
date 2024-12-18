@@ -18,7 +18,6 @@ function second(){
     return new Promise ((resolve)=>{
         function oK(){
             console.log('second!!! ');
-
         }
     resolve(oK());
     });
@@ -43,8 +42,19 @@ function date(){
         resolve(datee());
     });
 }
+function dropDownList(){
+    return new Promise((resolve)=>{
+        function list(){
+            const list=document.createElement('script');
+        list.src='site/js/dropDownList.js';
+        document.querySelector('body').append(list);
+        }
+        resolve(list());
+    });
+};//dropDownList()
 async function main(){
     await nav();
+    await dropDownList();
     await date();
     await first();
     await second();
