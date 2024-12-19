@@ -53,17 +53,28 @@ function dropDownList(){
     return new Promise((resolve)=>{
         function list(){
             const list=document.createElement('script');
-        list.src='site/js/dropDownList.js';
-        document.querySelector('body').append(list);
+            list.src='site/js/dropDownList.js';
+            document.querySelector('body').append(list);
         }
         resolve(list());
     });
 };//dropDownList()
+function menuFooter(){
+    return new Promise((resolve)=>{
+        function mf(){
+            const menu=document.createElement('script');
+            menu.src='site/js/menuFooter.js';
+            document.querySelector('body').append(menu);
+        }
+        resolve(mf());
+    });
+}
 async function main(){
     await nav();
     await dropDownList();
     await date();
     await first();
     await second();
+    await menuFooter();
 }
 main();
