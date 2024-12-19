@@ -787,5 +787,22 @@ footer > div > section{
 } */
 .openMenu > h3 > a{
     color:#191A23;
+}
 
+/* mFooter */
+.mFooter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 0;
+    background-color: #b9ff77c7;
+    position: fixed;
+    bottom:0;
+    transition: ease-out 1s ;
+    font-size:0;
+    flex-direction:column;
+    z-index: 3;
+    opacity: 0;
+    transition: ease-out 1s ;
 }
