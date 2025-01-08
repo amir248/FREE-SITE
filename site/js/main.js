@@ -8,7 +8,6 @@ document.querySelector('.letsMake > div:nth-child(1) > button:nth-child(3)').add
 });
 document.querySelector('.contactUs > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)').addEventListener('click',()=>{
     window.location.href=`https://wa.me/79528885656?text=Hi!%20^_^%20I'm%20interested%20...`;
-
 });
 function first(){
     return new Promise ((resolve)=>{
@@ -72,9 +71,9 @@ function menuFooter(){
 async function main(){
     await nav();
     await dropDownList();
-    await date();
     await first();
     await second();
     await menuFooter();
+    await date();
 }
 main();
