@@ -593,10 +593,12 @@ article{
     justify-content: center;
     align-items: center;
     /* flex-direction: column; */
-    min-width:100%;
-    min-width:1918px;
+    width:100%;
+    max-width:1918px;
     min-height:473px;
     /* overflow: hidden; */
+    margin:3%;
+    flex-direction: column;
 }
 .contactUs{
     width:100%;
