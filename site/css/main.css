@@ -600,6 +600,9 @@ article{
     margin:3%;
     flex-direction: column;
 }
+#sigCommentsBlock{
+    width:100%;
+}
 .contactUs{
     width:100%;
     max-width:1300px;
