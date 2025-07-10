@@ -587,18 +587,24 @@ article{
     background-color: #191A23;
     border-radius: 27px;
     overflow: hidden;
+    flex-direction: column;
+}
+.testimonials > h2{
+    width:100%;
+    text-align: center;
+    color:white;
+    text-shadow:2px 2px black;
 }
 .testimonials > div{
     display:flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
     width:100%;
     max-width:1918px;
     min-height:473px;
     /* overflow: hidden; */
     margin:3%;
-    flex-direction: column;
 }
 #sigCommentsBlock{
     width:100%;
