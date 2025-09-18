@@ -107,7 +107,7 @@
           <textarea id="goals" name="goals" required placeholder="Например: сайт компании, интернет-магазин, CRM..."></textarea>
         </div>
 
-        <button type="submit" id="send">Отправить запрос</button>
+        <button type="submit">Отправить запрос</button>
       </form>
     </div>
 
@@ -155,7 +155,7 @@
     const d = new Date();
     document.getElementById("date").textContent = d.getFullYear();
 
-    document.getElementById("send").addEventListener("click", async function(e) {
+    document.getElementById("quoteForm").addEventListener("submit", async function(e) {
       e.preventDefault();
       const formData = {
         fullName: this.fullName.value,
