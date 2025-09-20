@@ -162,7 +162,8 @@
         fullName: this.fullName.value,
         email: this.email.value,
         phone: this.phone.value,
-        goals: this.goals.value
+        goals: this.goals.value,
+        page: window.location.href
       };
       const response = await fetch("https://new.qucu.ru/send-quote", {
         method: "POST",
