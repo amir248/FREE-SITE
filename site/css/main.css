@@ -296,7 +296,31 @@ article{
 .boxWithBlocks > div > div > button:hover{
     background-color: rgba(39, 39, 39, 0.7);
 }
+.boxWithBlocks > div > div > a > button{
+    border-radius:50%;
+    width:41px;
+    height:41px;
+    font-size: 33px;
+    color:#b9ff77;
+    background-color: black;
+    transform:rotate(-30deg);
+    position: relative;
+}
+.boxWithBlocks > div > div > a > button:hover{
+    background-color: rgba(39, 39, 39, 0.7);
+}
 .boxWithBlocks > div > div > button:before{
+    content: "Learn More";
+    display:inline-block;
+    position: absolute;
+    color: black;
+    transform: rotate(30deg);
+    min-width:250px;
+    top:49px;
+    left:-35px;
+    font-size: 18px;
+}
+.boxWithBlocks > div > div > a > button:before{
     content: "Learn More";
     display:inline-block;
     position: absolute;
@@ -390,6 +414,13 @@ article{
     font-size: 14px;
 }
 .blackBox > div > button{
+    background: none;
+    border:none;
+    color:#b9ff77;
+    font-size: 20px;
+    margin-top: 27px;
+}
+.blackBox > div > a > button{
     background: none;
     border:none;
     color:#b9ff77;
