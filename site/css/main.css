@@ -201,14 +201,14 @@ article{
 .boxWithBlocks > div:nth-child(3) > div{
     background-color: black;
 }
-.boxWithBlocks > div:nth-child(3) > div > button{
+.boxWithBlocks > div:nth-child(3) > div > a > button{
     color:black;
     background-color: white;
 }
-.boxWithBlocks > div:nth-child(3) > div > button:hover{
+.boxWithBlocks > div:nth-child(3) > div > a > button:hover{
     background-color: #b9ff77;
 }
-.boxWithBlocks > div:nth-child(3) > div > button::before{
+.boxWithBlocks > div:nth-child(3) > div > a > button::before{
     color:white;
 }
 .boxWithBlocks > div:nth-child(2){
@@ -217,10 +217,10 @@ article{
 .boxWithBlocks > div:nth-child(2) > div{
     background-color:#b9ff77;
 }
-.boxWithBlocks > div:nth-child(2) > div > button{
+.boxWithBlocks > div:nth-child(2) > div > a > button{
     color:#b9ff77;
 }
-.boxWithBlocks > div:nth-child(2) > div > button:hover{
+.boxWithBlocks > div:nth-child(2) > div > a > button:hover{
     background-color: #b9ff77;
     color:black;
 }
@@ -252,14 +252,14 @@ article{
 .boxWithBlocks > div:nth-child(6) > div{
     background-color: black;
 }
-.boxWithBlocks > div:nth-child(6) > div > button{
+.boxWithBlocks > div:nth-child(6) > div > a > button{
     color:black;
     background-color: white;
 }
-.boxWithBlocks > div:nth-child(6) > div > button:hover{
+.boxWithBlocks > div:nth-child(6) > div > a > button:hover{
     background-color: #b9ff77;
 }
-.boxWithBlocks > div:nth-child(6) > div > button::before{
+.boxWithBlocks > div:nth-child(6) > div > a > button::before{
     color:white;
 }
 .boxWithBlocks > div > div{
@@ -282,6 +282,7 @@ article{
     background-color: #b9ff77;
     padding:3%;
     border-radius: 7px;
+    line-height: 1.5;
 }
 .boxWithBlocks > div > div > button{
     border-radius:50%;
